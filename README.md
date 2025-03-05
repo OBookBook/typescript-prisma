@@ -25,3 +25,9 @@ npx vite-node prisma/seed.ts
 or
 npx prisma db
 ```
+
+## prisma studio
+
+```shell
+npx prisma studio
+```
