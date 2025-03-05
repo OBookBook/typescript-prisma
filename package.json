@@ -5,5 +5,8 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "dev": "vite-node index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
   }
 }
