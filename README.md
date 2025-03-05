@@ -10,3 +10,10 @@ npx supabase@latest stop
 # ローカルデータベースをリセット
 npx supabase@latest db reset
 ```
+
+## migration
+
+```shell
+# スキーマファイルをデータベースに反映
+npx prisma migrate dev --name init
+```
