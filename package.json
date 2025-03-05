@@ -5,7 +5,8 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "dev": "vite-node index.ts",
-    "format:fix": "prisma format"
+    "format:fix": "prisma format",
+    "format:lint": "prisma validate"
   },
   "devDependencies": {
     "@prisma/client": "^6.4.1",
