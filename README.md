@@ -39,3 +39,11 @@ npx prisma studio
   npx supabase db reset &&
   npx prisma migrate dev --name init
 ```
+
+# create
+
+```shell
+# 1件のユーザーを作成
+npx vite-node lib/prisma/createSingleUser.ts
+
+```
