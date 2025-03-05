@@ -31,3 +31,11 @@ npx prisma db
 ```shell
 npx prisma studio
 ```
+
+# DB init
+
+```shell
+ npx supabase start &&
+  npx supabase db reset &&
+  npx prisma migrate dev --name init
+```
