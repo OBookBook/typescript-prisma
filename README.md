@@ -17,3 +17,11 @@ npx supabase@latest db reset
 # スキーマファイルをデータベースに反映
 npx prisma migrate dev --name init
 ```
+
+## seed
+
+```shell
+npx vite-node prisma/seed.ts
+or
+npx prisma db
+```
