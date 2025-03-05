@@ -9,15 +9,19 @@ datasource db {
 }
 
 model User {
-  id       Int     @id @default(autoincrement())
-  email    String  @unique
+  id       Int      @id @default(autoincrement())
+  email    String   @unique
   name     String?
   password String
+  Profile  Profile?
+  posts    Post[]
 }
 
 model Profile {
-  id  Int    @id @default(autoincrement())
-  bio String
+  id     Int    @id @default(autoincrement())
+  bio    String
+  userId Int    @unique
+  user   User   @relation(fields: [userId], references: [id])
 }
 
 model Post {
@@ -26,9 +30,13 @@ model Post {
   updatedAt DateTime @updatedAt
   title     String
   published Boolean  @default(false)
+  authorId  Int
+  author    User     @relation(fields: [authorId], references: [id])
+  tags      Tag[]
 }
 
 model Tag {
-  id   Int    @id @default(autoincrement())
-  name String
+  id    Int    @id @default(autoincrement())
+  name  String
+  posts Post[]
 }
