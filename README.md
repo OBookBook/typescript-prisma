@@ -101,4 +101,6 @@ npx vite-node lib/prisma/update.ts
 npx vite-node lib/prisma/updateMany.ts
 # 更新 or 作成 (Upsert)
 npx vite-node lib/prisma/updateOrCreate.ts
+# 数値をincrementで更新
+npx vite-node lib/prisma/updateIncrement.ts
 ```
