@@ -49,4 +49,6 @@ npx vite-node lib/prisma/createSingleUser.ts
 npx vite-node lib/prisma/createSingleUserType.ts
 # 複数行のデータを追加
 npx vite-node lib/prisma/createMany.ts
+# 複数行のデータを追加 型を指定
+npx vite-node lib/prisma/createManyType.ts
 ```
