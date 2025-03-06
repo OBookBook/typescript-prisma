@@ -57,4 +57,6 @@ npx vite-node lib/prisma/createRelation.ts
 npx vite-node lib/prisma/createRelationType.ts
 # 返却値の操作（include）
 npx vite-node lib/prisma/createReturnValue.ts
+#返却値の操作（select）
+npx vite-node lib/prisma/createReturnValueSelect.ts
 ```
