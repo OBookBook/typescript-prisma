@@ -88,4 +88,6 @@ npx vite-node lib/prisma/findManyRelationAggregation.ts
 npx vite-node lib/prisma/findManyFieldSelect.ts
 # 関連テーブルのレコードを取得
 npx vite-node lib/prisma/findManyRelationSelect.ts
+# 集計
+npx vite-node lib/prisma/findManyAggregation.ts
 ```
