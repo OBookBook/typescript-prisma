@@ -53,4 +53,6 @@ npx vite-node lib/prisma/createMany.ts
 npx vite-node lib/prisma/createManyType.ts
 # 関連テーブルへの書き込み
 npx vite-node lib/prisma/createRelation.ts
+# 関連テーブルへの書き込み 複数
+npx vite-node lib/prisma/createRelationType.ts
 ```
