@@ -76,4 +76,6 @@ npx vite-node lib/prisma/findManyWhere.ts
 npx vite-node lib/prisma/findManyWhereRelation.ts
 # 演算子を使用した複数条件の絞り込み
 npx vite-node lib/prisma/findManyWhereOperators.ts
+# 取得するレコード数を制限
+npx vite-node lib/prisma/findManyLimit.ts
 ```
