@@ -112,4 +112,6 @@ npx vite-node lib/prisma/updateIncrement.ts
 npx vite-node lib/prisma/delete.ts
 # レコードを複数件削除
 npx vite-node lib/prisma/deleteMany.ts
+# 全てのレコードを削除
+npx vite-node lib/prisma/deleteManyAll.ts
 ```
