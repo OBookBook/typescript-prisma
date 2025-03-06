@@ -70,4 +70,6 @@ npx vite-node lib/prisma/findMany.ts
 npx vite-node lib/prisma/findUnique.ts
 # id を昇順で並べ替えて最初のレコードを取得
 npx vite-node lib/prisma/findFirst.ts
+# where
+npx vite-node lib/prisma/findManyWhere.ts
 ```
