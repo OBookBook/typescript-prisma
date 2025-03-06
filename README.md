@@ -84,4 +84,6 @@ npx vite-node lib/prisma/findManyOrder.ts
 npx vite-node lib/prisma/findManyRelationOrder.ts
 # 関連テーブルのフィールドで集計された値で並び替え
 npx vite-node lib/prisma/findManyRelationAggregation.ts
+# フィールドの絞り込み
+npx vite-node lib/prisma/findManyFieldSelect.ts
 ```
