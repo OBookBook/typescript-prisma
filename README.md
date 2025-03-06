@@ -45,5 +45,6 @@ npx prisma studio
 ```shell
 # 1件のユーザーを作成
 npx vite-node lib/prisma/createSingleUser.ts
-
+# 型を指定して1件のユーザーを作成
+npx vite-node lib/prisma/createSingleUserType.ts
 ```
