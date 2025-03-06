@@ -104,3 +104,10 @@ npx vite-node lib/prisma/updateOrCreate.ts
 # 数値をincrementで更新
 npx vite-node lib/prisma/updateIncrement.ts
 ```
+
+# delete
+
+```shell
+# レコードを1件削除
+npx vite-node lib/prisma/delete.ts
+```
