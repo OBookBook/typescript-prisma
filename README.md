@@ -74,4 +74,6 @@ npx vite-node lib/prisma/findFirst.ts
 npx vite-node lib/prisma/findManyWhere.ts
 # 関連テーブルのフィールドで絞り込み
 npx vite-node lib/prisma/findManyWhereRelation.ts
+# 演算子を使用した複数条件の絞り込み
+npx vite-node lib/prisma/findManyWhereOperators.ts
 ```
