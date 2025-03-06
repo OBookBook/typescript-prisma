@@ -72,4 +72,6 @@ npx vite-node lib/prisma/findUnique.ts
 npx vite-node lib/prisma/findFirst.ts
 # where
 npx vite-node lib/prisma/findManyWhere.ts
+# 関連テーブルのフィールドで絞り込み
+npx vite-node lib/prisma/findManyWhereRelation.ts
 ```
