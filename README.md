@@ -60,3 +60,10 @@ npx vite-node lib/prisma/createReturnValue.ts
 #返却値の操作（select）
 npx vite-node lib/prisma/createReturnValueSelect.ts
 ```
+
+# get
+
+```shell
+# 全件 取得
+npx vite-node lib/prisma/findMany.ts
+```
