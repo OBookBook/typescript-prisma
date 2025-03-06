@@ -67,5 +67,7 @@ npx vite-node lib/prisma/createReturnValueSelect.ts
 # 全件 取得
 npx vite-node lib/prisma/findMany.ts
 # 一意のユーザを取得
-add prisma find lib/prisma/findUnique.ts
+npx vite-node lib/prisma/findUnique.ts
+# id を昇順で並べ替えて最初のレコードを取得
+npx vite-node lib/prisma/findFirst.ts
 ```
