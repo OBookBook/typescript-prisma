@@ -66,4 +66,6 @@ npx vite-node lib/prisma/createReturnValueSelect.ts
 ```shell
 # 全件 取得
 npx vite-node lib/prisma/findMany.ts
+# 一意のユーザを取得
+add prisma find lib/prisma/findUnique.ts
 ```
