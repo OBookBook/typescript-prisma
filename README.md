@@ -97,4 +97,6 @@ npx vite-node lib/prisma/findManyAggregation.ts
 ```shell
 # レコードを1件更新
 npx vite-node lib/prisma/update.ts
+# レコードを複数件更新
+npx vite-node lib/prisma/updateMany.ts
 ```
