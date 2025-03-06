@@ -115,3 +115,10 @@ npx vite-node lib/prisma/deleteMany.ts
 # 全てのレコードを削除
 npx vite-node lib/prisma/deleteManyAll.ts
 ```
+
+# transaction
+
+```shell
+# トランザクション、シーケンシャル（sequential）に実行
+npx vite-node lib/prisma/transaction.ts
+```
