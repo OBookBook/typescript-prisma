@@ -80,4 +80,6 @@ npx vite-node lib/prisma/findManyWhereOperators.ts
 npx vite-node lib/prisma/findManyLimit.ts
 # 並び替え
 npx vite-node lib/prisma/findManyOrder.ts
+# 関連テーブルのフィールドで並び替え
+npx vite-node lib/prisma/findManyRelationOrder.ts
 ```
