@@ -55,4 +55,6 @@ npx vite-node lib/prisma/createManyType.ts
 npx vite-node lib/prisma/createRelation.ts
 # 関連テーブルへの書き込み 複数
 npx vite-node lib/prisma/createRelationType.ts
+# 返却値の操作（include）
+npx vite-node lib/prisma/createReturnValue.ts
 ```
