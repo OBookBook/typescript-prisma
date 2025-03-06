@@ -78,4 +78,6 @@ npx vite-node lib/prisma/findManyWhereRelation.ts
 npx vite-node lib/prisma/findManyWhereOperators.ts
 # 取得するレコード数を制限
 npx vite-node lib/prisma/findManyLimit.ts
+# 並び替え
+npx vite-node lib/prisma/findManyOrder.ts
 ```
