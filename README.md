@@ -91,3 +91,10 @@ npx vite-node lib/prisma/findManyRelationSelect.ts
 # 集計
 npx vite-node lib/prisma/findManyAggregation.ts
 ```
+
+# update
+
+```shell
+# レコードを1件更新
+npx vite-node lib/prisma/update.ts
+```
